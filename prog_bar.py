@@ -14,5 +14,4 @@ for i in range(cnt + 1):
     steps_left = bar_len - steps_done
     sys.stdout.write(
         f'\r{int(prcnt_done * 100.0):>3}% [' + '█' * steps_done + ' ' * steps_left + ']')
-    sys.stdout.flush()
 print()
